@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.parent{
+    width: 52%;
+    height: 100%;
+    background-color: plum;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: fit-content;
+    height: 100%;
+    background-color: plum;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.yop{
+    background-color: transparent;
+    border: none;
+}

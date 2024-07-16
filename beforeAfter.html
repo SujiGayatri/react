@@ -1,0 +1,67 @@
+<html>
+    <head>
+      <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .main{
+            width: 20%;
+            height: 20%;
+            border-radius: 10px;
+            border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            color: blue;
+            font-size: 50px;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+            transition: all 2s linear;
+            transform: skewX(15deg);
+        }
+        .main:hover{
+            color: white;
+            z-index: 5;
+            /* transform: rotate(360deg); */
+        }
+        .main::before{
+            content: "  ";
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            position: absolute;
+            top: 0%;
+            left: -100%;
+            /* background-color: blue; */
+            background: linear-gradient(to left,blue,skyblue);
+            transition: all 2s;
+            color: white;
+           
+        }
+        .main:hover::before{
+            left: 0%;
+            z-index: -2;
+        
+            
+        }
+
+        /* .main li::before{
+            content: "Hii ";
+        } */
+      </style>
+    </head>
+    <body>
+        <div class="main">
+        <!-- <ul class="child">
+           <li>good mrng</li>
+           <li>good mrng</li>
+           <li>good mrng</li>
+        </ul> -->
+        <div class="child1">
+            Back
+        </div>
+    </div>
+    </body>
+</html>

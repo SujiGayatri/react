@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <script src="./js/events.js"></script>
+       <link rel="stylesheet" href="./css/events.css">
+    </head>
+    <body>
+        <form action="">
+        <label>Name:</label>
+        <input type="text" placeholder="Enter Your Name" onchange="fun(event)" ><br><br>
+        <label>Age:</label>
+        <input type="number" placeholder="Enter Your Age" onchange="fun(event)"><br><br>
+        <label>Address:</label>
+        <input type="text" placeholder="Enter Your Address" onchange="fun(event)"><br><br>
+        <label>Gender:</label>
+        <input type="radio" value="Female" onchange="fun(event)" name="a"><label >Female</label>
+        <input type="radio" value="Male" onchange="fun(event)" name="a"><label>Male</label><br><br>
+        <label>Which party do you support?</label>
+        <select onchange="fun(event)">
+            <option value="TDP">TDP</option>
+            <option value="YCP">YCP</option>
+            <option value="NOTA">NOTA</option>
+        </select><br><br>
+        <label >How satisfied with the current administration?</label><br>
+        <input type="checkbox" value="Very Satisfied" onchange="fun(event)"><label>Very Satisfied</label><br>
+        <input type="checkbox" value="Satisfied" onchange="fun(event)"><label>Satisfied</label><br>
+        <input type="checkbox" value="Not Satisfied" onchange="fun(event)"><label>Not Satisfied</label><br>
+        <input type="checkbox" value="Dissapointed" onchange="fun(event)"><label>Dissapointed</label><br>
+        <label>Any suggestion for upcoming administration</label>
+        <textarea onchange="fun(event)"></textarea><br><br>
+        <!-- <button onclick="submit()">SUBMIT</button> -->
+         <p onclick="submit()">on click</p>
+    </form>
+         <!-- <div class="c1" onclick="alert('onclick worked')"></div> -->
+    </body>
+</html>

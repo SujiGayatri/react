@@ -1,0 +1,238 @@
+.child2{
+    width: 100%;
+    height: fit-content;
+    background-color: #313789;
+}
+.c2-sub1{
+    width: 100%;
+    height: 70px;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c2-sub1 i{
+    font-size: 40px;
+    color: #F7B7B7;
+}
+.c2-sub-head{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c2-sub-head1{
+    width: 50%;
+    font-size: 35px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+}
+.c2-sub2{
+    width: 100%;
+    height: 100px;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c2-sub2-1{
+    margin-top: 25px;
+    width: 45%;
+    height: fit-content;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    word-spacing: 3px;
+}
+.c2-sub3{
+    width: 100%;
+    height: 100px;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c2-sub3-button{
+    width: 120px;
+    height: 40px;
+    background-color: #F7B7B7;
+    color: #313789;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+
+@media screen and (max-width:600px) {
+    .c2-sub-head1{
+        height: fit-content;
+        font-size: 25px;
+        width: 70%;
+    }
+    .c2-sub2{
+        height: fit-content;
+    }
+    .c2-sub2-1{
+        width: 65%;
+    }
+}
+
+.child3{
+    width: 100%;
+    height: fit-content;
+    background-color: aqua;
+    position: relative;
+}
+.c3-1{
+    width: 100%;
+    height: 150px;
+    background-color: #313789;
+}
+.c3-2{
+    width: 100%;
+    height: 700px;
+    background-color: #F7B7B7;
+    /* position: relative; */
+}
+.c3-1-sub1{
+    width: 300px;
+    height: 250px;
+    background-color: white;
+    border-radius: 15px;
+    position: absolute;
+    top: 6%;
+    left: 15%;
+    position: relative;
+    transition: all 1s linear;
+    overflow: hidden;
+    z-index: 5;
+}
+.c3-1-sub1:hover{
+    z-index: 5;
+    color: white;
+}
+.c3-1-sub1::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to top ,#313789,rgb(19, 148, 199),#313789);
+    /* background-color: #313789; */
+    border-radius: 15px;
+    position: absolute;
+    top: 0%;
+    right: 100%;
+    transition: all 1s linear;
+}
+.c3-1-sub1:hover::after{
+    right: 0%;
+    z-index: -2;
+}
+
+.c3-1-sub11{
+    width: 100%;
+    height: 20%;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.c3-1-sub12{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.c3-1-sub12-1{
+    width: 70%;
+    font-size: 18px;
+    text-align: center;
+}
+.c3-1-sub13{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-size: 18px;
+}
+#c3-1-sub2{
+    position: absolute;
+    top: 2%;
+    left: 40%;
+}
+#c3-1-sub3{
+    position: absolute;
+    top: 2%;
+    left: 65%;
+}
+#c3-1-sub4{
+    position: absolute;
+    top: 33%;
+    left: 15%;
+}
+#c3-1-sub5{
+    position: absolute;
+    top: 33%;
+    left: 40%;
+}
+#c3-1-sub6{
+    position: absolute;
+    top: 33%;
+    left: 65%;
+}
+@media screen and (max-width:600px) {
+    .c3-1{
+        height: 150px;
+    }
+    .c3-2{
+        height: 350px;
+    }
+    .c3-1-sub1{
+        width: 145px;
+        height: 150px;
+        /* position: absolute; */
+        top: 30%;
+        left: 2%;
+    }
+    .c3-1-sub11{
+        font-size: 15px;
+        height: 25%;
+        align-items: center;
+    }
+    .c3-1-sub12-1{
+        font-size: 12px;
+    }
+    .c3-1-sub13{
+        font-size: 13px;
+    }
+    #c3-1-sub2{
+        position: absolute;
+        top: 9%;
+        left: 35%;
+    }
+    #c3-1-sub3{
+        position: absolute;
+        top: 9%;
+        left: 68%;
+    }
+    #c3-1-sub4{
+        position: absolute;
+        top: 43%;
+        left: 2%;
+    }
+    #c3-1-sub5{
+        position: absolute;
+        top: 43%;
+        left: 35%;
+    }
+    #c3-1-sub6{
+        position: absolute;
+        top: 43%;
+        left: 68%;
+    }
+}

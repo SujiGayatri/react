@@ -1,0 +1,43 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+}
+.child{
+    height: fit-content;
+    width: fit-content;
+}
+.buttons {
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: skyblue;
+}
+
+.grid-item {
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+    margin: 1px;
+}
+
+.active {
+    background-color: skyblue !important;
+}
+div img{
+    width: 100%;
+    height: 100%;
+}

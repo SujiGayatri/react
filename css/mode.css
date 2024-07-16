@@ -1,0 +1,78 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 500px;
+    height: 200px;
+    background-color: black;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    position: relative;
+}
+.main::before,
+.main::after{
+    content: "";
+    position: absolute;
+}
+.main::before{
+    width: 150px;
+    height: 150px;
+    background: radial-gradient(#FED20F,#FF7B06);
+    border-radius: 50%;
+    top: 12%;
+    left: 3%;
+    transition: all 3s;
+    /* cursor: pointer; */
+    z-index: 5;
+}
+.main:hover::before{
+    animation-name: sun_moon;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.main::after{
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20201015/pngtree-blue-cartoon-sky-background-cloud-image_418494.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-top-left-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    z-index: 3;
+}
+.main:hover::after{
+    animation-name: light_dark;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes sun_moon{
+    0%{
+        background: radial-gradient(#FED20F,#FF7B06);
+    }
+    100%{
+        left: 67%;
+        background: radial-gradient(white,gray);
+    }
+}
+@keyframes light_dark{
+    0%{
+        background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20201015/pngtree-blue-cartoon-sky-background-cloud-image_418494.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        /* background-color: skyblue; */
+    }
+    100%{
+        background-image: url("https://i.pinimg.com/564x/12/01/3c/12013c0e9d7b30daf3a3246ed18cc83d.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        /* background-color: purple; */
+    }
+}

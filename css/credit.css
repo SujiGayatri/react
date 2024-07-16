@@ -1,0 +1,165 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 50%;
+    height: 65%;
+    border-radius: 15px;
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/background/20200604/pngtree-beautiful-abstract-dark-blue-starry-galaxy-background-image_337887.jpg);
+    /* background-color: aqua; */
+    /* background-repeat: no-repeat; */
+    background-size: 100% 100%;
+}
+.child1{
+    width: 100%;
+    height: 15%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    position: relative;
+}
+.s{
+    width: fit-content;
+    height: fit-content;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-weight: 500;
+    /* background-color: blue; */
+}
+/* #logo{
+    width: 20px;
+    height: 20px;
+    background-image: url(./img/sbi.jpeg);
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 30%;
+    right: 20%;
+} */
+#sbi{
+    color: white;
+    font-size: 35px;
+    position: absolute;
+    top: 30%;
+    right: 15%;
+}
+#card{
+    color: blue;
+    font-size: 55px;
+    position: absolute;
+    top: 0%;
+    right: 1%;
+}
+.child2{
+    width: 100%;
+    height: 35%;
+    position: relative;
+}
+.evm{
+    width: 12%;
+    height: 50%;
+    /* background-image: url(https://c8.alamy.com/comp/T9MY4C/gold-emv-chip-icon-for-bank-plastic-credit-or-debit-charge-card-vector-symbol-illustration-T9MY4C.jpg); */
+    /* background-image: url(C:\Users\user\Desktop\react\img\emv.jpg); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 20px;
+    position: absolute;
+    top: 48%;
+    left: 15%;
+}
+.evm img{
+    width: 100%;
+    height: 100%;
+    border-radius: 12px;
+}
+.info{
+    width: fit-content;
+    height: fit-content;
+    color: white;
+}
+#i1{
+    font-style: oblique;
+    font-size: 30px;
+    position: absolute;
+    top: 63%;
+    right: 3%;
+}
+#i2{
+    font-size: 10px;
+    letter-spacing: 9px;
+    position: absolute;
+    top: 89%;
+    right: 4%;
+}
+.child3{
+    width: 100%;
+    height: 15%;
+    color: white;
+    font-size: 47px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child4{
+    width: 100%;
+    height: 35%;
+    display: flex
+}
+.inf1{
+    width: 70%;
+    height: 100%;
+    position: relative;
+}
+.n1{
+    width: 100%;
+    height: 50%;
+    position: relative;
+}
+.n11{
+    font-size: 15px;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 61%;
+}
+.n12{
+    font-size: 43px;
+    color: white;
+    position: absolute;
+    top: 17%;
+    left: 70%;
+}
+.n2{
+    width: 100%;
+    height: 50%;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 27%;
+}
+.inf2{
+    width: 30%;
+    height: 100%;
+    position: relative;
+}
+.v1{
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    font-size: 60px;
+    font-weight: 700;
+    position: absolute;
+    top: 30%;
+    left: 28%;
+}
+.v2{
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 69%;
+    left: 55%;
+}

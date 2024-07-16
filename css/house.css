@@ -1,0 +1,487 @@
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+.sky{
+    width: 100%;
+    height: 30%;
+    background-color: black;
+    position: relative;
+}
+.moon{
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 75px;
+    box-shadow: 0 0 30px white;
+    position: absolute;
+    top: 20%;
+    left: 58%;
+}
+.s{
+    width: 4%;
+    height: 25%;
+    background-image: url("https://i.pinimg.com/564x/b5/68/c1/b568c18087eb8dc245400cbf834a7383.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+}
+#s1{
+    position: absolute;
+    top: 5%;
+    left: 3%;
+}
+#s2{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+}
+#s3{
+    position: absolute;
+    top: 52%;
+    left: 7%;
+}
+#s4{
+    position: absolute;
+    top: 5%;
+    left: 7%;
+}
+#s5{
+    position: absolute;
+    top: 30%;
+    left: 10%;
+}
+#s6{
+    position: absolute;
+    top: 51%;
+    left: 12%;
+}
+#s7{
+    position: absolute;
+    top: 5%;
+    left: 12%;
+}
+#s8{
+    position: absolute;
+    top: 30%;
+    left: 15%;
+}
+#s9{
+    position: absolute;
+    top: 51%;
+    left: 17%;
+}
+#s10{
+    position: absolute;
+    top: 5%;
+    left: 17%;
+}
+#s11{
+    position: absolute;
+    top: 30%;
+    left: 20%;
+}
+#s12{
+    position: absolute;
+    top: 51%;
+    left: 22%;
+}
+
+#s13{
+    position: absolute;
+    top: 5%;
+    left: 22%;
+}
+#s14{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+}
+#s15{
+    position: absolute;
+    top: 51%;
+    left: 27%;
+}
+#s16{
+    position: absolute;
+    top: 5%;
+    left: 27%;
+}
+#s17{
+    position: absolute;
+    top: 30%;
+    left: 30%;
+}
+#s18{
+    position: absolute;
+    top: 51%;
+    left: 32%;
+}
+#s19{
+    position: absolute;
+    top: 5%;
+    left: 32%;
+}
+#s20{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+}
+#s21{
+    position: absolute;
+    top: 51%;
+    left: 37%;
+}
+#s22{
+    position: absolute;
+    top: 5%;
+    left: 37%;
+}
+#s23{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+}
+#s24{
+    position: absolute;
+    top: 51%;
+    left: 42%;
+}
+
+#s25{
+    position: absolute;
+    top: 5%;
+    left: 42%;
+}
+#s26{
+    position: absolute;
+    top: 30%;
+    left: 45%;
+}
+#s27{
+    position: absolute;
+    top: 51%;
+    left: 47%;
+}
+#s28{
+    position: absolute;
+    top: 5%;
+    left: 47%;
+}
+#s29{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+}
+#s30{
+    position: absolute;
+    top: 51%;
+    left: 52%;
+}
+#s31{
+    position: absolute;
+    top: 5%;
+    left: 52%;
+}
+#s32{
+    position: absolute;
+    top: 30%;
+    left: 54%;
+    border-radius: 35px;
+}
+
+#s33{
+    position: absolute;
+    top: 5%;
+    left: 57%;
+    border-radius: 25px;
+}
+#s34{
+    position: absolute;
+    top: 5%;
+    left: 67%;
+    border-radius: 25px;
+}
+#s35{
+    position: absolute;
+    top: 30%;
+    left: 70%;
+}
+#s36{
+    position: absolute;
+    top: 51%;
+    left: 72%;
+}
+
+#s37{
+    position: absolute;
+    top: 5%;
+    left: 72%;
+}
+#s38{
+    position: absolute;
+    top: 30%;
+    left: 75%;
+}
+#s39{
+    position: absolute;
+    top: 52%;
+    left: 77%;
+}
+#s40{
+    position: absolute;
+    top: 5%;
+    left: 77%;
+}
+#s41{
+    position: absolute;
+    top: 30%;
+    left: 80%;
+}
+#s42{
+    position: absolute;
+    top: 51%;
+    left: 82%;
+}
+#s43{
+    position: absolute;
+    top: 5%;
+    left: 82%;
+}
+#s44{
+    position: absolute;
+    top: 30%;
+    left: 85%;
+}
+#s45{
+    position: absolute;
+    top: 51%;
+    left: 87%;
+}
+#s46{
+    position: absolute;
+    top: 5%;
+    left: 87%;
+}
+#s47{
+    position: absolute;
+    top: 30%;
+    left: 90%;
+}
+#s48{
+    position: absolute;
+    top: 51%;
+    left: 92%;
+}
+#s49{
+    position: absolute;
+    top: 5%;
+    left: 92%;
+}
+#s50{
+    position: absolute;
+    top: 30%;
+    left: 95%;
+}
+
+#s51{
+    position: absolute;
+    top: 30%;
+    left: 0%;
+}
+#s52{
+    position: absolute;
+    top: 51%;
+    left: 3%;
+}
+
+
+
+
+
+
+
+.H{
+    width: 100%;
+    height: 70%;
+    position: relative;
+}
+.tree{
+    width: 4%;
+    height: 60%;
+    background-color: #f4B184;
+    position: absolute;
+    top: 40%;
+    left :75%;
+}
+.leaf1{
+    width: 120px;
+    height: 120px;
+    background-color: #A8D18D;
+    border-radius: 60px;
+    border: 1px solid black;
+    position: absolute;
+    top: 23%;
+    left: 68%;
+}
+.leaf2{
+    width: 120px;
+    height: 120px;
+    background-color: #A8D18D;
+    border-radius: 60px;
+    border: 1px solid black;
+    position: absolute;
+    top: 23%;
+    left: 77%;
+}
+.leaf3{
+    width: 120px;
+    height: 120px;
+    background-color: #A8D18D;
+    border-radius: 60px;
+    border: 1px solid black;
+    position: absolute;
+    top: 2%;
+    left: 72%;
+}
+.house{
+    width: 40%;
+    height: 60%;
+    background-color: #FED966;
+    border: 1px solid black;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+}
+.door{
+    width: 30%;
+    height: 90%;
+    border: 1px solid black;
+    background-color: #f4B184;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+.window{
+    width: 30%;
+    height: 50%;
+    background-color: #4473C5;
+    border: 1px solid black;
+    position: absolute;
+    top: 5%;
+    left: 60%;
+}
+.w1{
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.w2{
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+    position: absolute;
+    top: 0;
+    left: 50%;
+}
+.w3{
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+.w4{
+    width: 50%;
+    height: 50%;
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+.roof{
+    width: 50%;
+    height: 20%;
+    background-color: #BF9100;
+    border: 1px solid black;
+    position: absolute;
+    top: 20%;
+    left: 5%;
+}
+.up{
+    width: 4%;
+    height: 18%;
+    background-color: #D0DECF;
+    border: 1px solid black;
+    position: absolute;
+    top: 2%;
+    left: 46%;
+}
+.r1{
+    width: 15%;
+    height: 100%;
+    border-top: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.r2{
+    width: 15%;
+    height: 100%;
+    border-bottom: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 15%;
+}
+.r3{
+    width: 15%;
+    height: 100%;
+    border-top: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 30%;
+}
+.r4{
+    width: 15%;
+    height: 100%;
+    border-bottom: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 45%;
+}
+.r5{
+    width: 15%;
+    height: 100%;
+    border-top: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 60%;
+}
+.r6{
+    width: 15%;
+    height: 100%;
+    border-bottom: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 75%;
+}
+.r7{
+    width: 15%;
+    height: 100%;
+    border-top: 1px solid black;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 90%;
+}

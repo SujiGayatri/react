@@ -1,0 +1,58 @@
+<html>
+    <head>
+       <link rel="stylesheet" type="text/css" href="./slick-1.8.1/slick/slick.css"/>
+      <link rel="stylesheet" href="./css/slick.css">
+    </head>
+    <body>
+        <div class="parent">
+            <div class="child"><div class="innerchild"></div></div>
+            <div class="child"><div class="innerchild"></div></div>
+            <div class="child"><div class="innerchild"></div></div>
+            <div class="child"><div class="innerchild"></div></div>
+            <div class="child"><div class="innerchild"></div></div>
+            <div class="child"><div class="innerchild"></div></div>
+        </div>
+        <script type="text/javascript" src="./slick-1.8.1/jquery.min.js"></script>
+        <script type="text/javascript" src="/slick-1.8.1/slick/slick.js"></script>
+        <script type="text/javascript" src="./slick-1.8.1/slick/slick.min.js"></script>
+        <script>
+            $('.parent').slick({
+                slidesToShow: 3,
+                slidesToScroll:1,
+                dots:true,
+                centerMode:true,
+                prevArrow:'<button class="prev_button"><</buton>',
+                nextArrow:'<button class="prev_button">></buton>',
+                responsive:[
+                    {
+                        breakpoint:1024,
+                        settings:{
+                            slidesToShow:3,
+                            centerMode:true
+                        },
+                    },
+                    {
+                        breakpoint:768,
+                        settings:{
+                            slidesToShow:2,
+                            centerMode:true
+                        },
+                    },
+                    {
+                        breakpoint:467,
+                        settings:{
+                            slidesToShow:1,
+                            centerMode:true
+                        },
+                    },
+                ]
+            //    autoplay:true,
+            //    autospeed:600
+            //    focusOnSelect: true
+            //    centerMode: true,
+            //    arrows: false
+            
+           });
+        </script>
+    </body>
+</html>

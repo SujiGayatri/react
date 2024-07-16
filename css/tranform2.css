@@ -1,0 +1,55 @@
+.main{
+    width: 100%;
+    height: 100%;
+    perspective: 100px;
+    position: relative;
+}
+/* .childL{
+    width: 20%;
+    height: 10%;
+    background: linear-gradient(to right,blue,skyblue);
+    transform-style: preserve-3d;
+    transform: rotateY(90deg);
+    position: absolute;
+    top: 8%;
+} */
+.childT{
+    width: 42%;
+    height: 20%;
+    background: linear-gradient(to top,blue,skyblue);
+    transform-style: preserve-3d;
+    transform: rotateX(90deg);
+    position: absolute;
+    top:19%;
+    left: 29%;
+}
+.childB{
+    width: 43%;
+    height: 20%;
+    background: linear-gradient(to bottom,blue,skyblue);
+    transform-style: preserve-3d;
+    transform: rotateX(-90deg);
+    position: absolute;
+    top:62%;
+    left: 28.5%;
+}
+.childL{
+    width: 10%;
+    height: 45.5%;
+    background: linear-gradient(to right,rgb(29, 29, 245),#81d0f0,rgb(127, 209, 241));
+    transform-style: preserve-3d;
+    transform: rotateY(90deg);
+    position: absolute;
+    top:27.5%;
+    left: 23%;
+}
+.childR{
+    width: 10%;
+    height: 45.5%;
+    background: linear-gradient(to right,blue,#8cd5f1,skyblue);
+    transform-style: preserve-3d;
+    transform: rotateY(90deg);
+    position: absolute;
+    top:27.5%;
+    left: 67.5%;
+}

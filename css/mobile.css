@@ -1,0 +1,363 @@
+.main{
+    width: 100%;
+    overflow-y: auto;
+}
+.child1{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 30px;
+    color: grey;
+    margin-left: 10%;
+}
+.menu{
+    font-size: 20px;
+    color: blue;
+    margin-right: 10%;
+}
+.child2{
+    width: 100%;
+    height: 110%;
+    background-color: blue;
+   background-repeat: no-repeat;
+   background-size: 100% 100%;
+   position: relative;
+}
+.child2 img{
+    width: 100%;
+    height: 100%;
+    z-index: 2;
+}
+.mobile{
+    width: fit-content;
+    height: fit-content;
+    color: white;
+    font-weight: 1000;
+    font-size: 60px;
+    z-index: 5;
+    position: absolute;
+    top: 65%;
+    left: 10%;
+}
+#freepik{
+    font-size: 15px;
+    font-weight: 200;
+    position: absolute;
+    top: 85%;
+}
+.blocks{
+    width: 40%;
+    height: 60%;
+    background-color: transparent;
+    position: absolute;
+    top:40%;
+    right: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.b1{
+    width: 40%;
+    height: 45%;
+    border-radius: 7%;
+    background-color: white;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.child3{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+.head3{
+    width: 100%;
+    height: 30%; 
+}
+.super{
+    width: 100%;
+    height: 60%;
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items:end;
+}
+.sinfo{
+    width: 100%;
+    height: 40%;
+    font: 20px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+.blocks3{
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.sample{
+    width: 40%;
+    height: 40%;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+}
+.check{
+    width: 20%;
+    height: 80%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    color: #1847B8;
+}
+.stext{
+    width: 80%;
+    height: 100%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.ht{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    font-size: 22px;
+    font-weight: 500;
+    align-items: center;
+}
+.st{
+    width: 100%;
+    height: 60%;
+    display: flex;
+}
+.child4{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    position: relative;
+}
+.UI{
+    width: 60%;
+    height: 75%;
+    background-color: blue;
+    border-radius: 20px;
+    position: absolute;
+    top: 10%;
+    left: 15%;
+}
+.ui_1{
+    width: 60%;
+    height: 100%;
+    background-color: transparent;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.ui_h{
+    width: 100%;
+    height: 35%;
+    color: white;
+    padding-left: 20px;
+    font-weight: 500;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ui_i{
+    width: 100%;
+    height: 30%;
+    color: white;
+    padding-left: 40px;
+    font-size: 18px;
+}
+.ui_b{
+    width: 30%;
+    height: 9%;
+    border-radius: 25px;
+    border: 1px solid white;
+    margin: 20px 0 0 35px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c4_image{
+    width: 30%;
+    height: 80%;
+    background-color: black;
+    background-image: url(https://www.hulkapps.com/cdn/shop/files/theme_bg_compact.jpg?v=1647843423);
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    top: 20%;
+    left: 55%;
+}
+.child5{
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c5_1{
+    width: 40%;
+    height: 100%;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    position: relative;
+}
+.circle{
+    width: 55%;
+    height: 50%;
+    background-color: blue;
+    border-radius: 170px;
+    position: absolute;
+    top: 32%;
+    left: 27.5%;
+
+}
+.phone{
+    width: 40%;
+    height: 60%;
+    /* background-color: transparent; */
+    /* background-image: url(https://static.vecteezy.com/system/resources/previews/011/047/526/original/smartphone-and-mobile-phone-free-png.png); */
+    /* background-image: url("/img/Mobiless.png"); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 30px;
+    box-shadow: -5px -5px 15px 15px black;
+    position: absolute;
+    top: 25%;
+    left: 35%;
+    z-index: 3;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.c5_2{
+    width: 60%;
+    height: 100%;
+}
+.about{
+    width: 100%;
+    height: 10%;
+    color: grey;
+    font-size: 20px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.build{
+    width: 100%;
+    height: 25%;
+    color: black;
+    font-size: 40px;
+    display: flex;
+    justify-content: start;
+}
+.info_d1{
+    width: 100%;
+    height: 15%;
+    color: black;
+    font-size: 17px;
+}
+.info_d2{
+    width: 100%;
+    height: 20%;
+    color: black;
+    font-size: 20px;
+}
+.info_d3{
+    width: 20%;
+    height: 8%;
+    color: white;
+    background-color: blue;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.info_d4{
+    width: 20%;
+    height: 10%;
+    margin-top: 15px;
+    font-size: 15px;
+}
+.child6{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c6{
+    width: 80%;
+    height: 70%;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c6_1{
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c6_i{
+    width: 50%;
+    height: 70%;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.c6_2{
+    width: 60%;
+    height: 100%;
+}
+.c6_b{
+    width: 60%;
+    height: 30%;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c6_h{
+    width: 100%;
+    height: 50%;
+    font-size: 30px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.c6_p{
+    width: 100%;
+    height: 50%;
+    font-size: 15px;
+    /* display: flex;
+    justify-content: start;
+    align-items: center; */
+}

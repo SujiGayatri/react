@@ -1,0 +1,74 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            body{
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                background-color: black;
+            }
+            .button1{
+                width: 15%;
+                height: 15%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-color: black;
+                color: rgb(41, 195, 241);
+                font-size: 40px;
+                border-bottom: 3px solid transparent;
+                border-left: 3px solid transparent;
+                border-image: linear-gradient(45deg, rgb(41, 195, 241) 5%, black);
+                border-image-slice: 1;
+                /* border: 2px solid white; */
+            }
+            /* .button1:hover{
+                box-shadow: 0 0 15px rgb(41, 195, 241);
+            } */
+            .button1::before{
+                content: "";  
+                width: 100%;
+                height: 100%;
+
+            }
+            .twitter{
+                width: 10%;
+                height: 20%;
+                /* background-color: white; */
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                font-size: 50px;
+                position: relative;
+                transition: all 1.5s linear;
+                border-top: 5px solid #1D9BF0;
+                overflow: hidden;
+            }
+            .twitter:hover{
+                color: #1D9BF0;
+                z-index: 3;
+                box-shadow: 0 5px 10px #1D9BF0;
+                border-top: none;
+            }
+            .twitter::before{
+                content: "";
+                width: 100%;
+                height: 100%;
+                border-bottom: 5px solid #1D9BF0;
+                position: absolute;
+                bottom: 100%;
+                transition: all 1.5s;
+                box-shadow: 0 3px 15px #1D9BF0;
+            }
+            .twitter:hover::before{
+                bottom: 0%;
+                z-index: -2;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="button1">Home</div>
+        <div class="twitter"><i class="fa-brands fa-twitter"></i></div>
+    </body>
+</html>

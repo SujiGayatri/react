@@ -1,0 +1,132 @@
+body{
+    /* width: 100%;
+    height: 100svh; */
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.clock1{
+    width: 40%;
+    height: 15%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px; 
+}
+.clock{
+    width: 40%;
+    height: 15%;
+    /* border: 2px solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px; 
+    /* animation: linear1 3s linear infinite; */
+    /* background: repeating-conic-gradient(from var(--ang), #0f0, #ff0, #0ff, #f0f, #0ff); */
+    z-index: -1;
+}
+@keyframes  linear1 {
+    0%{
+        background: linear-gradient(to left,purple,skyblue);
+    }
+    30%{
+        background: linear-gradient(to left,skyblue,green);
+    }
+    60%{
+        background: linear-gradient(to left,green,yellow);
+    }
+    100%{
+        background: linear-gradient(to left,yellow,blue);
+    }
+}
+.type{
+    width: 20%;
+    height: 40%;
+    border: 2px solid red;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+    font-size: 22px;
+    font-weight: 500;
+    margin: 0 20px;
+    color: red;
+    overflow: hidden;
+    transition: all 1s linear;
+    z-index: 1;
+}
+.type:hover{
+    cursor: pointer;
+    color: black;
+}
+.type::before {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    background: red;
+    height: 150px;
+    width: 200px;
+    border-radius: 50%;
+    top: 100%;
+    left: 100%;
+    transition: all 1s linear;
+}
+.type:hover::before {
+    top: -30px;
+    left: -30px;
+}
+.colon{
+    width: 10%;
+    height: 100%;
+    font-size: 60px;
+    color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hours{
+    width: 25%;
+    height: 100%;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    color: red;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    box-shadow: 0 0 10px red;
+    z-index: 2;
+}
+.minutes{
+    width: 25%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: red;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    box-shadow: 0 0 10px red;
+    z-index: 2;
+}
+.seconds{
+    width: 25%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: red;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    box-shadow: 0 0 10px red;
+    z-index: 2;
+}

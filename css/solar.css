@@ -1,0 +1,87 @@
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+.child1{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(168, 159, 159);
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    animation-name: sun_d;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.child2{
+    width: 100%;
+    height: 50%;
+    background-color: rgb(248, 204, 59);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    animation-name: moon_d;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.moon{
+    width: 120px;
+    height: 120px;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0 0 10px white;
+    animation-name: rotate_m;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.sun{
+    width: 120px;
+    height: 120px;
+    /* background-color: orange; */
+    background: radial-gradient(yellow,#FFBF00);
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgb(252, 249, 74);
+    animation-name: rotate_s;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes rotate_m{
+    0%{
+        transform: rotate(0deg) translateX(200px);
+    }
+    100%{
+        transform: rotate(360deg) translateX(200px);
+    }
+}
+@keyframes rotate_s{
+    0%{
+        transform: rotate(180deg) translateX(200px);
+    }
+    100%{
+        transform: rotate(540deg) translateX(200px);
+    }
+}
+@keyframes sun_d{
+    0%{
+        /* background-color: rgb(248, 204, 59); */
+        background: linear-gradient(to bottom,yellow,orange,red);
+    }
+    100%{
+        /* background-color: black; */
+        background: linear-gradient(to bottom,black,rgb(133, 128, 128),rgb(223, 221, 221));
+    }
+}
+@keyframes moon_d{
+    0%{
+        /* background-color: black; */
+        background: linear-gradient(to top,black,gray);
+    }
+    100%{
+        /* background-color: rgb(248, 204, 59); */
+        background: linear-gradient(to top,yellow,orange,red);
+    }
+}

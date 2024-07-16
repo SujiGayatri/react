@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <title>media queries</title>
+        <style>
+            .menubar
+            {
+                height: 90px;
+                width: 100%;
+                background-color: beige;
+               
+            }
+            .options
+            {
+                display: flex;
+                gap: 20px;
+                align-items: center;
+                justify-content: center;
+
+            }
+            .selectoptions{
+                display: none;
+            }
+          @media screen and (max-width:600px)
+           {
+            .options
+            {
+                display: none;
+            }
+            .selectoptions{
+                display: block;
+            }
+          }
+        </style>
+    </head>
+    <body>
+        <div class="menubar">
+            <div class="options">
+                <div>option1</div>
+                <div>option2</div>
+                <div>option3</div>
+                <div>option4</div>
+            </div>
+            <div class="selectoptions">
+            <select>
+                <option>option1</option>
+                <option>option2</option>
+                <option>option3</option>
+                <option>option4</option>
+            </select>
+            </div>
+        </div>
+      
+    </body>
+</html>

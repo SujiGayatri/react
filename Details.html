@@ -1,0 +1,62 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./css/Details.css">
+        <script src="./js/Details.js"></script>
+    </head>
+    <body>
+        <div class="parent">
+        <div class="main">
+            <form>
+                <label>First Name : </label>
+                <input type="text" onchange="fname(event)"><br><br>
+                <label>Last Name : </label>
+                <input type="text" onchange="lname(event)"><br><br>
+                <label>DOB : </label>
+                <input type="date" onchange="dob(event)"><br><br>
+                <label>Father Name : </label>
+                <input type="text" onchange="fathername(event)"><br><br>
+                <label>Mother Name : </label>
+                <input type="text" onchange="mothername(event)"><br><br>
+                <label>Address : </label>
+                <input type="text" onchange="address(event)"><br><br>
+                <label>Gender : </label>
+                <input type="radio" onchange="gender(event)" name="a" value="Male"><label>Male</label>
+                <input type="radio" onchange="gender(event)" name="a" value="Female"><label>Female</label><br><br>
+                <label>Certifications : </label>
+                <input type="text" onchange="cer(event)"><br><br>
+                <label >Academic Details : </label>
+                <table>
+                    <tr>
+                        <th>N.I</th>
+                        <th>YOP</th>
+                        <th>Percentage</th>
+                        <th>Place</th>
+                    </tr>
+                    <tr>
+                        <td>SSC</td>
+                        <td onchange="sscy(event)"><input type="text" class="YOP"></td>
+                        <td onchange="sscper(event)"><input type="text" class="YOP"></td>
+                        <td onchange="sscp(event)"><input type="text" class="YOP"></td>
+                    </tr>
+                    <tr>
+                        <td>Inter</td>
+                        <td onchange="intery(event)"><input type="number" class="YOP"></td>
+                        <td onchange="interper(event)"><input type="number" class="YOP"></td>
+                        <td onchange="interp(event)"><input type="text" class="YOP"></td>
+                    </tr>
+                    <tr>
+                        <td>B.Tech</td>
+                        <td onchange="techy(event)"><input type="number" class="YOP"></td>
+                        <td onchange="techper(event)"><input type="number" class="YOP"></td>
+                        <td onchange="techp(event)"><input type="text" class="YOP"></td>
+                    </tr>
+                </table><br><br>
+                <label>Skills : </label>
+                <input type="text" onchange="skills(event)"><br><br>
+                <label>Hobbies : </label>
+                <input type="text" onchange="hobbies(event)"><br><br>
+                <button onclick="sub(event)">Submit</button>
+            </form>
+        </div></div>
+    </body>
+</html>

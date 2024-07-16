@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Table with Predefined Data</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        input[type="text"] {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+<button id="toggleButton" onclick="toggleFunction()">Display Data</button>
+<table id="dataTable">
+    <thead>
+        <tr>
+            <th>Data 1</th>
+            <th>Data 2</th>
+            <th>Data 3</th>
+            <th>Actions</th>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- Rows will be added here dynamically -->
+    </tbody>
+</table>
+
+<script>
+    let inputFieldsCreated = false;
+    let dataDisplayed = false;
+
+    const predefinedData = [
+        { data1: "Student 1", data2: "Math", data3: "A" },
+        { data1: "Student 2", data2: "Science", data3: "B" },
+        { data1: "Student 3", data2: "English", data3: "A" }
+    ];
+
+    function toggleFunction() {
+        if (!dataDisplayed) {
+            displayData();
+            dataDisplayed = true;
+            document.getElementById('toggleButton').textContent = 'Add';
+        } else if (!inputFieldsCreated) {
+            createInputFields();
+        } else {
+            addRow();
+        }
+    }
+
+    function displayData() {
+        const table = document.getElementById("dataTable").getElementsByTagName('tbody')[0];
+        predefinedData.forEach(item => {
+            const newRow = table.insertRow();
+            const cell1 = newRow.insertCell(0);
+            const cell2 = newRow.insertCell(1);
+            const cell3 = newRow.insertCell(2);
+            const cell4 = newRow.insertCell(3);
+
+            cell1.innerHTML = item.data1;
+            cell2.innerHTML = item.data2;
+            cell3.innerHTML = item.data3;
+            cell4.innerHTML = '<button onclick="editRow(this)">Edit</button>';
+        });
+    }
+
+    function createInputFields() {
+        const input1 = document.createElement('input');
+        input1.type = 'text';
+        input1.id = 'input1';
+        input1.placeholder = 'Enter data 1';
+
+        const input2 = document.createElement('input');
+        input2.type = 'text';
+        input2.id = 'input2';
+        input2.placeholder = 'Enter data 2';
+
+        const input3 = document.createElement('input');
+        input3.type = 'text';
+        input3.id = 'input3';
+        input3.placeholder = 'Enter data 3';
+
+        const button = document.getElementById('toggleButton');
+        button.insertAdjacentElement('beforebegin', input1);
+        button.insertAdjacentElement('beforebegin', input2);
+        button.insertAdjacentElement('beforebegin', input3);
+
+        inputFieldsCreated = true;
+    }
+
+    function addRow() {
+        const table = document.getElementById("dataTable").getElementsByTagName('tbody')[0];
+        const input1 = document.getElementById("input1").value;
+        const input2 = document.getElementById("input2").value;
+        const input3 = document.getElementById("input3").value;
+
+        if (input1 && input2 && input3) {
+            const newRow = table.insertRow();
+            const cell1 = newRow.insertCell(0);
+            const cell2 = newRow.insertCell(1);
+            const cell3 = newRow.insertCell(2);
+            const cell4 = newRow.insertCell(3);
+
+            cell1.innerHTML = input1;
+            cell2.innerHTML = input2;
+            cell3.innerHTML = input3;
+            cell4.innerHTML = '<button onclick="editRow(this)">Edit</button>';
+
+            // Clear the input fields
+            document.getElementById("input1").value = "";
+            document.getElementById("input2").value = "";
+            document.getElementById("input3").value = "";
+
+            // Move the "Add" button to the end of the table
+            const button = document.getElementById('toggleButton');
+            button.parentNode.appendChild(button);
+        } else {
+            alert("Please fill all fields.");
+        }
+    }
+
+    function editRow(button) {
+        const row = button.parentNode.parentNode;
+        const cells = row.getElementsByTagName("td");
+
+        const input1 = prompt("Edit Data 1:", cells[0].innerHTML);
+        const input2 = prompt("Edit Data 2:", cells[1].innerHTML);
+        const input3 = prompt("Edit Data 3:", cells[2].innerHTML);
+
+        if (input1 !== null && input2 !== null && input3 !== null) {
+            cells[0].innerHTML = input1;
+            cells[1].innerHTML = input2;
+            cells[2].innerHTML = input3;
+        }
+    }
+</script>
+
+</body>
+</html>

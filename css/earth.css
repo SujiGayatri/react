@@ -1,0 +1,100 @@
+body{
+    /* width: 100%;
+    height: 100%; */
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* background: linear-gradient(to bottom,#010425,#020F58); */
+    background-color: black;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    /* background: linear-gradient(to bottom,#010425,#020F58); */
+    background-image: url(https://img.freepik.com/premium-photo/sparkles-stars-background_1031776-79991.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    animation-name: rotate_moon;
+    animation-duration: 2s;
+    position: relative;
+}
+.earth{
+    width: 18%;
+    height: 40%;
+    border-radius: 50%;
+    background-color: blue;
+    position: fixed;
+    top: 30%;
+    left: 40%;
+}
+.moon{
+    width: 11%;
+    height: 25%;
+    border-radius: 50%;
+    margin: 2%;
+    /* background-image: url(https://images.rawpixel.com/image_png_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTEwL3Vwd2s2MjA3NTg4My13aWtpbWVkaWEtaW1hZ2Utam9iMTI2N18xLnBuZw.pnghttps://static.vecteezy.com/system/resources/thumbnails/023/655/353/small/full-moon-transparent-png.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%; */
+    background-color: #f7f5c7;
+    box-shadow: 0 0 15px white;
+}
+@keyframes rotate_moon{
+    0%{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-start;   
+    }
+    12.5%{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;   
+    }
+    25%{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-start;   
+    }
+    37.5%{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;   
+    }
+    50%{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;   
+    }
+    62.5%{
+        display: flex;
+        justify-content: flex-start;
+        align-items: flex-end;   
+    }
+    75%{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;   
+    }
+    87.5%{
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;   
+    }
+    100%{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;   
+    }
+}
+.star{
+    width: 0.5%;
+    height: 1.5%;
+    border-radius: 50%;
+    background-color: white;
+    box-shadow: 0 0 10px white;
+    position: absolute;
+    top: 5%;
+    left: 3%;
+}

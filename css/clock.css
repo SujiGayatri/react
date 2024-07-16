@@ -1,0 +1,155 @@
+.main{
+    width: 100%;
+    height: 100%;
+    background: radial-gradient(rgb(92, 84, 84),black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clock{
+    width: 23%;
+    height: 53%;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.c_1{
+    width: 90%;
+    height: 90%;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid black;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.num{
+    font-size: 45px;
+    font-weight: 900;
+    position: absolute;
+}
+#n1{
+    top: 8%;
+    left: 70%;
+}
+#n2{
+    top: 23%;
+    left: 82%;
+}
+#n3{
+    top: 42%;
+    left: 88%;
+}
+#n4{
+    top: 60%;
+    left: 82%;
+}
+#n5{
+    top: 75%;
+    left: 68%;
+}
+#n6{
+    top: 80%;
+    left: 46%;
+}
+#n7{
+    top: 76%;
+    left: 25%;
+}
+#n8{
+    top: 60%;
+    left: 10%;
+}
+#n9{
+    top: 42%;
+    left: 5%;
+}
+#n10{
+    top: 23%;
+    left: 8%;
+}
+#n11{
+    top: 8%;
+    left: 22%;
+}
+#n12{
+    top: 2%;
+    left: 43%;
+}
+.c_m{
+    width: 10%;
+    height: 10%;
+    border: 1px solid black;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+}
+.c_mm{
+    width: 30%;
+    height: 30%;
+    background-color: black;
+    border-radius: 50%;
+}
+.hour{
+    width: 5%;
+    height: 18%;
+    background-color: black;
+    /* border-top-left-radius: 50%;
+    border-top-right-radius: 50%; */
+    position: absolute;
+    top:27%;
+    animation-name: rotateHour;
+    animation-duration: 360s;
+}
+.min{
+    width: 3.5%;
+    height: 25%;
+    background-color: black;
+    /* border-top-left-radius: 50%;
+    border-top-right-radius: 50%; */
+    position: absolute;
+    top:38%;
+    animation-name: rotateMin;
+    animation-duration: 3600s;
+    animation-iteration-count: infinite;
+}
+.sec{
+    width: 1.5%;
+    height: 30%;
+    background-color: black;
+    position: absolute;
+    top:35%;
+    animation-name: rotateSec;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes rotateHour{
+    from{ 
+        transform: rotate(0deg) translateY(-50px); 
+    }
+    to{
+        transform: rotate(360deg) translateY(-50px); 
+    }
+}
+@keyframes rotateMin{
+    from{ 
+        transform: rotate(0deg) translateY(-40px); 
+    }
+    to{
+        transform: rotate(360deg) translateY(-40px); 
+    }
+}
+@keyframes rotateSec{
+    from{ 
+        transform: rotate(0deg) translateY(-50px); 
+    }
+    to{
+        transform: rotate(360deg) translateY(-50px); 
+    }
+}

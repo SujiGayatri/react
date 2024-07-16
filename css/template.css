@@ -1,0 +1,260 @@
+.main{
+    width: 100%;
+    height: 100%;
+    background-color: whitesmoke;
+}
+.head{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.parent{
+    width: 100%;
+    height: 90%;
+    position: relative;
+}
+.button{
+    width: 7%;
+    height: 65%;   
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0 3px;
+}
+#b1{
+    background-color: #94DF4E;
+}
+#b2{
+    background-color:#85D4F5 ;
+}
+#b3{
+    background-color: #85D4F5;
+}
+#b4{
+    background-color:#85D4F5 ;
+}
+#b5{
+    background-color:#FC615E ;
+}
+.profile{
+    width: 25%;
+    height: 93%;
+    background-color: white;
+    position: absolute;
+    top: 3%;
+    left: 3%;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+}
+.image{
+    width: 25%;
+    height: 18%;
+    /* background-color: aqua; */
+    background-image: url("https://cdn-icons-png.flaticon.com/512/3135/3135715.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border-radius: 90px;
+    border: 2px solid blue;
+    position: absolute;
+    top: 4%;
+    left: 35%;
+}
+.info1{
+    width: 100%;
+    font-weight: 500;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 23px;
+    height: fit-content;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    position: absolute;
+    top: 23%;
+}
+.info2{
+    width: 100%;
+    font-weight: 300;
+    height: fit-content;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    position: absolute;
+    top: 30%;
+    color: grey;
+}
+.info3{
+    width: 100%;
+    font-weight: 300;
+    height: fit-content;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    position: absolute;
+    top: 35%;
+    color: grey;
+}
+.follow{
+    width: 20%;
+    height: 5%;
+    border-radius: 3px;
+    border: 1px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#f1{
+    background-color: blue;
+    position: absolute;
+    top: 41%;
+    left: 25%;
+    color: white;
+}
+#f2{
+    background-color: white;
+    color: blue;
+    position: absolute;
+    top: 41%;
+    left: 47%;
+}
+hr{
+    height: 1px;
+    width: 90%;
+    /* color: black; */
+    background-color: black;
+}
+/* .web{
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    top: 50%;
+}
+span{
+    font-weight: 700;
+}
+.git{
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    top: 58%;
+} */
+
+.a23{
+    position: absolute;
+    top: 44%;
+    left: 10%;
+}
+
+
+.form-con{
+    /* width: 70%;
+    height: 50%;
+    /* background-color: rgb(228, 12, 12); */
+    position: absolute;
+    top: 3%;
+    display: flex;
+    justify-content: center ;
+    position: absolute;
+    left :29%; 
+    width: 70%;
+    height: 45%;
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.x {
+    width: 100%;
+    margin: 5px;
+    display: flex;
+    align-items: flex-start;
+}
+input{
+    width: 500px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+label{
+    width: 30%;
+    margin-right: 20px;
+    font-weight: bold;
+    text-align: right;
+}
+.save{
+    width: 15%;
+    height: 13%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    top: 85%;
+    left: 38%;
+}
+.status{
+    width: 70%;
+    height: 50%;
+    background-color: white;
+    position: absolute;
+    top: 49%;
+    left: 29%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.h{
+    font-weight: 600;
+    font-size: 20px;
+    position: absolute;
+    top: 1%;
+    left: 1%;
+    margin-bottom: 3px;
+}
+.h1{
+    position: absolute;
+    top: 5%;
+}
+input[type="range"]{
+    width: 90%;
+    height: 10%;
+    background-color: blue;
+}
+.r{
+    width: 1000px;
+}
+.l{
+    width: 30%;
+    font-weight: bold;
+    text-align: right;
+    display: flex;
+    justify-content: left;
+    margin: 1px 0 0;
+}
+#r1{
+    accent-color: blue;
+}
+#r2{
+    accent-color: red;
+}
+#r3{
+    accent-color: green;
+}
+#r4{
+    accent-color: #fec314
+}
+#r5{
+    accent-color: skyblue;
+    background: white;
+}

@@ -1,0 +1,27 @@
+body{
+    height:200svh;
+}
+.a1{
+    width: 400px;
+    height: 400px;
+    background-color: blue;
+     position: sticky;
+    /* color: white; */ 
+}
+.a11{
+    width: 100px;
+    height: 100px;
+    background-color: skyblue;
+    position: fixed;
+    bottom: 1%;
+    right: 1%;
+    border-radius: 10px;
+}
+.b1{
+    width: 200px;
+    height: 100px;
+    border: 2px solid black;
+    position: sticky;
+    top: 0%;
+
+}

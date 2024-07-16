@@ -1,0 +1,27 @@
+.a1{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-image: url("https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/34246/images/FBZMzu4GQICsgEQe5gzB_Smile.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius:60px ;
+    box-shadow: 10px 10px 5px rgb(145, 137, 137);
+}
+.a2{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    background-image: url("https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/blogs/34246/images/FBZMzu4GQICsgEQe5gzB_Smile.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    border-top-left-radius: 60px;
+    border-bottom-right-radius:60px ;
+    box-shadow: 10px 10px 5px rgb(145, 137, 137);
+    font-size: 70px;
+    font-weight: 500;
+    color: transparent;
+    background-clip: text;
+    padding-top: 1%;
+}
